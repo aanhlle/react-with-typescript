@@ -10,6 +10,7 @@ const NewTodo = () => {
     const enteredText = inputTodo.current!.value;
 
     if (enteredText.trim().length === 0) return;
+    console.log("test");
   };
 
   return (
